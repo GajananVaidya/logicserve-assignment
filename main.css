@@ -1,0 +1,73 @@
+header {
+    height: 100px;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.heading > h2 {
+    margin-top: 36px;
+}
+
+.element {
+    background: #0D76B6;
+    height: 124px;
+    border-radius: 259px;
+    color: #ffffff;
+    box-shadow: 0 3px 6px #00000029;
+    text-align: center;
+    margin: 10px;
+}
+
+.white-circle {
+    float: right;
+    background: white;
+    width: 123px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.element-heading {
+    display: inline-block;
+    margin-top: 30px;
+    max-width: 55%;    
+}
+
+.element h5{
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.element span{
+    font-size: 0.7rem;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.men-img {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 10%;
+}
+
+.flag-img {
+    position: absolute;
+    right: 5%;
+    width: 10%;
+    bottom: 0;
+}
+
+.main-slide {
+    display: none;
+    min-height: 200px;
+}
+
+.main-slide:first-child {
+    display: block;
+}
